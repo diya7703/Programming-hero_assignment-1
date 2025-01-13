@@ -1,0 +1,128 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+/*navbar*/
+nav {
+    display: flex;
+    padding: 24px 80px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-title {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    justify-content: center;
+    align-items: center;
+    color: #006A50;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+/*hero-section*/
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 80px;
+    padding: 30px 40px 80px 40px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+
+.banner-title {}
+
+.img-1 {
+    height: 380px;
+    width: 380px;
+    padding-left: 64px;
+
+}
+
+.dark-1 {
+    color: rgba(14, 14, 14, 0.50);
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.dark-2 {
+    color: #0E0E0E;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.btn-primary-2 {
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: 1px solid #006A50;
+    background: #006A50;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/*main */
+.pillar {
+    margin: 60px 80px;
+}
+
+.pillars-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.pillar-info {
+    padding: 15px;
+    width: 302px fixed;
+    height: 244px auto;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+}
+
+.pillar-title {
+    padding-bottom: ;
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pillar-description {
+    padding-top:px;
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.img-2 {
+    width: 64px;
+    height: 64px;
+
+}
