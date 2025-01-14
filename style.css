@@ -58,9 +58,6 @@ nav a {
     background-color: #C6E4D6;
     border-radius: 24px;
 }
-
-.banner-title {}
-
 .img-1 {
     height: 380px;
     width: 380px;
@@ -130,7 +127,6 @@ nav a {
 }
 
 .title {
-    padding-bottom: ;
     color: rgba(14, 14, 14, 0.80);
     font-size: 20px;
     font-weight: 700;
@@ -243,7 +239,7 @@ nav a {
     font-size: 16px;
     font-weight: 600;
     color: #FFF;
-    border: #006A50;
+    border: 1px solid #006A50;
     cursor: pointer;
 }
 .btn-primary-5:hover {
@@ -254,7 +250,6 @@ nav a {
 
 .margin-2 {
     margin: 40px 80px;
-    align-items: ;
 }
 
 .donater-title {
@@ -326,7 +321,6 @@ nav a {
     margin: 40px 0px 0px 0px;
     justify-items: center;
     align-items: center;
-    box-sigin: border-box;
     background: #FFF;
     padding: 50px 160px;
     
@@ -336,5 +330,9 @@ nav a {
     background: #ccc;
     width: 100%;            
     margin: 20px 0;      
+  }
+  .social{
+    display: flex;
+    gap:23px;
   }
   
