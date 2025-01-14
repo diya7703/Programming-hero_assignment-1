@@ -5,6 +5,9 @@
 }
 
 body {
+    margin:0;
+    padding :0;
+    overflow-x: hidden;
     background: #F5F5F5;
 }
 
@@ -37,8 +40,14 @@ nav a {
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
+    cursor: pointer;
 
 }
+.btn-primary:hover {
+    background-color: #006A50; 
+    color: #f0f0f0;           
+    transform: scale(1.1); 
+  }
 
 /*hero-section*/
 .banner {
@@ -82,7 +91,13 @@ nav a {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
+    cursor: pointer;
 }
+.btn-primary-2:hover {
+    background-color: #f0f0f0; 
+    color: #006A50;           
+    transform: scale(1.1); 
+  }
 
 /*main */
 .margin {
@@ -122,7 +137,6 @@ nav a {
 }
 
 .description {
-    padding-top: px;
     color: rgba(14, 14, 14, 0.70);
     font-size: 15px;
     font-weight: 400;
@@ -156,8 +170,11 @@ nav a {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
+    cursor: pointer;
 }
-
+.btn-primary-3:hover {            
+    transform: scale(1.1); 
+  }
 .younus {
     margin: 60px 80px;
     padding: 48px 24px;
@@ -174,25 +191,150 @@ nav a {
 
 .three-qus {
     display: flex;
-
+    justify-content: space-between;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    padding: 10px;
+    padding: 15px;
 }
 
 .p-qus {
     color: #0E0E0E;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
 }
 
 .btn-primary-4 {
-    
-    background: rgba(9, 161, 92, 0.15);
-    border:rgba(14, 14, 14, 0.15);
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
-    padding: 11px 20px;
-    border: none;
-    color: #0E0E0E;
-    font-size: 13px;
+    border: 1.4px solid #0E0E0E;
+    background: rgba(9, 161, 92, 0.15);
+    font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
+.btn-primary-4:hover {
+    background-color: #006A50; 
+    color: #FFF;           
+    transform: scale(1.1); 
+  }
+
+.three-news {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 40px;
+
+    gap: 32px;
+    border-radius: 24px;
+    background: #FFF;
+}
+
+.img-3 {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+.btn-primary-5 {
+    border-radius: 8px;
+    background: #006A50;
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    border: #006A50;
+    cursor: pointer;
+}
+.btn-primary-5:hover {
+    background-color: #f0f0f0; 
+    color: #006A50;         
+    transform: scale(1.1); 
+  }
+
+.margin-2 {
+    margin: 40px 80px;
+    align-items: ;
+}
+
+.donater-title {
+    color: #0E0E0E;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.donate-descri {
+    color: rgba(14, 14, 14, 0.70);
+    text-align: center;
+    padding: 10px 60px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.four-taka {
+    display: flex;
+    padding: 10px 60px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.taka {
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.other-amount {
+    margin: 20px 120px;
+    padding: 20px 40px;
+    text-align: center;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.newsletter {
+    padding: 100px;
+    border-radius: 24px;
+    background: #C6E4D6;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-p {
+    color: rgba(14, 14, 14, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    width: 600px;
+    border-radius: 8px 0px 0px 8px;
+    background: #FFF;
+    padding: 11px 20px;
+}
+.ending{
+    margin: 40px 0px 0px 0px;
+    justify-items: center;
+    align-items: center;
+    box-sigin: border-box;
+    background: #FFF;
+    padding: 50px 160px;
+    
+}
+.line {
+    height: 1px;            
+    background: #ccc;
+    width: 100%;            
+    margin: 20px 0;      
+  }
+  
